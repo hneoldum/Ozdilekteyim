@@ -1,0 +1,15 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Kategori Sayfasını doğrula ve tıkla
+* "1" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/nav_categories" elemetini kontrol et ve tıkla
+* "1" saniye kadar bekle
+
+# Kadın Sekmesine tıkla
+* Xpath "//*[@text='Kadın']" li elementi bul ve tıkla
+* "1" saniye kadar bekle
+
+# Pantolon Kategorisini aç
+* "1" saniye kadar bekle
+* Xpath "//*[@text='Pantolon']" li elementi bul ve tıkla

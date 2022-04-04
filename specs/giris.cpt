@@ -1,0 +1,27 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Giriş yap sayfasını doğrula
+* "1" saniye kadar bekle
+* "//*[@id='com.ozdilek.ozdilekteyim:id/btnLogin']" elementini kontrol et
+* "1" saniye kadar bekle
+
+# Giriş yap
+* "com.ozdilek.ozdilekteyim:id/etEposta" e-mail adresini gir
+* "1" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" şifre gir
+* "1" saniye kadar bekle
+
+# Geri git
+* Id "com.ozdilek.ozdilekteyim:id/ivBack" li elementi bul ve tıkla
+* "1" saniye kadar bekle
+* Id "com.ozdilek.ozdilekteyim:id/ivBack" li elementi bul ve tıkla
+* "1" saniye kadar bekle
+
+# Rastgele ürün seç
+* Xpath "//*[@text='24/27']" li elementi bul ve tıkla
+* "1" saniye kadar bekle
+
+# Sepete ekle
+* Id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" li elementi bul ve tıkla
+* "1" saniye kadar bekle

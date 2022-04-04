@@ -1,0 +1,16 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Scroll et
+* Sayfayı aşağı doğru kaydır
+* "1" saniye kadar bekle
+* Sayfayı aşağı doğru kaydır
+
+# Rastgele ürün seç ve detaya git
+* Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout[6]" li elementi bul ve tıkla
+* "1" saniye kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/bottomPriceOptions']" elementini kontrol et
+
+# Favoriler butonuna tıkla
+* "1" saniye kadar bekle
+* Id "com.ozdilek.ozdilekteyim:id/imgFav" li elementi bul ve tıkla
