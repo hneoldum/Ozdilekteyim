@@ -127,13 +127,13 @@ public class BasePage extends BaseTest {
 
 
     @Step ("<id> şifre gir")
-    public void LoginSifre(String id2){
-        if (id2 != null){
-            sendKeys(By.id(id2),"aaaa");
+    public void LoginSifre(String sifre){
+        if (sifre != null){
+            sendKeys(By.id(sifre),"aaaa");
 
-            LogInfo(id2+"sifre girildi");
+            LogInfo(sifre+"sifre girildi");
         }else{
-            LogInfo(id2+"sifre girme hatası");
+            LogInfo(sifre+"sifre girme hatası");
         }
     }
 
